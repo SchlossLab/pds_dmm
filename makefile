@@ -53,18 +53,18 @@ install : pds_dmm
 
 
 # Item # 1 -- pds_dmm --
-./pds_dmm.o : pds_dmm/pds_dmm.cpp
-	$(CC) $(CC_OPTIONS) pds_dmm/pds_dmm.cpp -c $(INCLUDE) -o ./pds_dmm.o
+./pds_dmm.o : pds_dmm.cpp
+	$(CC) $(CC_OPTIONS) pds_dmm.cpp -c $(INCLUDE) -o ./pds_dmm.o
 
 
 # Item # 2 -- qFinderDMM --
-./qFinderDMM.o : pds_dmm/qFinderDMM.cpp
-	$(CC) $(CC_OPTIONS) pds_dmm/qFinderDMM.cpp -c $(INCLUDE) -o ./qFinderDMM.o
+./qFinderDMM.o : qFinderDMM.cpp
+	$(CC) $(CC_OPTIONS) qFinderDMM.cpp -c $(INCLUDE) -o ./qFinderDMM.o
 
 
 # Item # 3 -- linearalgebra --
-./linearalgebra.o : pds_dmm/linearalgebra.cpp
-	$(CC) $(CC_OPTIONS) pds_dmm/linearalgebra.cpp -c $(INCLUDE) -o ./linearalgebra.o
+./linearalgebra.o : linearalgebra.cpp
+	$(CC) $(CC_OPTIONS) linearalgebra.cpp -c $(INCLUDE) -o ./linearalgebra.o
 
 
 ##### END RUN ####
