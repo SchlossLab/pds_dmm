@@ -11,6 +11,8 @@
 
 /**************************************************************************************************/
 
+#include <stdlib.h>     /* exit, EXIT_FAILURE */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>
@@ -19,6 +21,9 @@
 #include <fstream>
 #include <cmath>
 #include <map>
+#include <algorithm>
+#include <limits>
+#include <string.h>
 
 using namespace std;
 

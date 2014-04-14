@@ -18,6 +18,9 @@
 #include <sstream>
 #include <fstream>
 #include <cmath>
+#include <stdio.h>      /* printf, fopen */
+#include <stdlib.h>     /* exit, EXIT_FAILURE */
+#include <limits>
 
 using namespace std;
 
