@@ -10,8 +10,8 @@
 # Macros
 #
 
-CC = /usr/bin/gcc
-CC_OPTIONS = 
+CC = /usr/bin/g++
+CC_OPTIONS = -O3
 LNK_OPTIONS = 
 
 
